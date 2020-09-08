@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+#textField{
+    font-family: 'Fira Sans';
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 15px;
+    border: black 5px solid;
+    border-radius: 14px;
+    margin-top: 8px;
+
+}
+
+#submitButton{
+    
+    font-family: 'Fira Sans';
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    border: black 5px solid;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+
+}
+#submitButton:hover{
+    border: black 5px solid;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+input:focus{
+    outline: none; 
+    
+}
+#fields{
+    flex-direction: row;
+    width: fit-content;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 14px;
+    border: 5px black solid;
+    margin: 20px auto;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+        
+
+}
+.stylingTasks{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.imagesKeeper{
+    display: flex;
+    justify-content: center;
+}
+.sizing{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
